@@ -1,0 +1,35 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.9  # Specify the Python version
+    commands:
+      - echo Installing system dependencies...
+      - sudo apt-get update
+      - sudo apt-get install -y python3-pip python3-venv
+
+  pre_build:
+    commands:
+      - echo Setting up the environment...
+      - python3 -m venv venv
+      - source venv/bin/activate
+      - pip install --upgrade pip
+      - pip install -r requirements.txt
+
+  build:
+    commands:
+      - echo Running Django tests...
+      - python manage.py test
+      - echo Building static files...
+      - python manage.py collectstatic --noinput
+      - echo Packaging the application...
+      - zip -r django-app.zip * .[^.]*
+
+  post_build:
+    commands:
+      - echo Build complete.
+
+artifacts:
+  files:
+    - django-app.zip  # Upload the packaged application as an artifact
