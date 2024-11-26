@@ -5,9 +5,9 @@ After=network.target
 [Service]
 User=ubuntu
 Group=www-data
-WorkingDirectory=/home/ubuntu/awsCodeDeployTest
+WorkingDirectory=/home/ubuntu/projectFolder
 ExecStart=/home/ubuntu/env/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/
-ubuntu/awsCodeDeployTest/myproject/myproject.sock myproject.wsgi:application
+ubuntu/projectFolder/myproject/myproject.sock myproject.wsgi:application
 
 
 [Install]

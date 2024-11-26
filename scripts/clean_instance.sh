@@ -1,4 +1,4 @@
 #!/user/bin/env bash
 
-# sudo rm -rf /home/ubuntu/*
-echo "checked"
+sudo rm -rf /home/ubuntu/projectFolder*
+# echo "checked"
