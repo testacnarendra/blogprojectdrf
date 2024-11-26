@@ -11,7 +11,7 @@ sudo apt install -y nginx
 sudo apt-get install -y python3-pip python3-venv
 
 # Navigate to the project directory
-cd /home/cis/Documents/CodeDeployAWS/projectFolder
+cd /home/projectFolder
 
 # Create a virtual environment and install dependencies
 python3 -m venv env

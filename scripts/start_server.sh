@@ -1,6 +1,6 @@
 #!/bin/bash
 # Navigate to the project directory
-cd /home/cis/Documents/CodeDeployAWS/projectFolder
+cd /home/ubuntu/projectFolder
 
 # Activate the virtual environment
 source env/bin/activate

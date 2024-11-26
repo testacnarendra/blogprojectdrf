@@ -1,4 +1,4 @@
 #!/user/bin/env bash
 
-sudo rm -rf /home/cis/Documents/CodeDeployAWS/projectFolder*
+sudo rm -rf /home/ubuntu/projectFolder/*
 # echo "checked"

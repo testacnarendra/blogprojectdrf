@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/cis/Documents/CodeDeployAWS/projectFolder
+    destination: /home/ubuntu/projectFolder
 permissions:
-  - object: /home/cis/Documents/CodeDeployAWS/projectFolder
+  - object: /home/ubuntu/projectFolder
     owner: ubuntu
     group: ubuntu
 
