@@ -1,4 +1,4 @@
 #!/user/bin/env bash
 
-sudo rm -rf /home/ubuntu/projectFolder/*
+sudo rm -rf /home/ubuntu/awsCodeDeployTest/*
 # echo "checked"
