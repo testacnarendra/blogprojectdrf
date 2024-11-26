@@ -1,3 +1,3 @@
 #!/user/bin/env bash
 
-sudo rm -rf /home/ubuntu/<projectRootDir>/*
+sudo rm -rf /home/ubuntu/awsCodeDeployTest/*

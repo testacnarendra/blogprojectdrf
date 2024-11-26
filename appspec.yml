@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/<projectRootFolder>
+    destination: /home/ubuntu/awsCodeDeployTest
 permissions:
-  - object: /home/ubuntu/<projectRootFolder>
+  - object: /home/ubuntu/awsCodeDeployTest
     owner: ubuntu
     group: ubuntu
 
