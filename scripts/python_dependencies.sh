@@ -1,5 +1,5 @@
 #!/user/bin/env bash
 
-virtualenv /home/ubuntu/env
-source /home/ubuntu/env/bin/activate
-pip install -r /home/ubuntu/projectFolder/requirements.txt
+virtualenv /home/cis/Documents/CodeDeployAWS/projectFolder/env
+source /home/cis/Documents/CodeDeployAWS/projectFolder/env/bin/activate
+pip install -r /home/cis/Documents/CodeDeployAWS/projectFolder/requirements.txt
