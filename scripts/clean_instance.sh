@@ -1,3 +1,4 @@
 #!/user/bin/env bash
 
-sudo rm -rf /home/ubuntu/*
+# sudo rm -rf /home/ubuntu/*
+echo "checked"
