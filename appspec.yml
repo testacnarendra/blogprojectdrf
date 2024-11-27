@@ -10,27 +10,27 @@ permissions:
 
 hooks:
   BeforeInstall:
-    - location: deployment-archive/scripts/clean_instance.sh
+    - location: scripts/clean_instance.sh
       timeout: 300
       runas: root
   AfterInstall:
-    - location: deployment-archive/scripts/instance_os_dependencies.sh
+    - location: scripts/instance_os_dependencies.sh
       timeout: 300
       runas: ubuntu
-    - location: deployment-archive/scripts/python_dependencies.sh
+    - location: scripts/python_dependencies.sh
       timeout: 300
       runas: ubuntu
-    - location: deployment-archive/scripts/gunicorn.sh
+    - location: scripts/gunicorn.sh
       timeout: 300
       runas: ubuntu
-    - location: deployment-archive/scripts/nginx.sh
+    - location: scripts/nginx.sh
       timeout: 300
       runas: ubuntu
   ApplicationStart:
-    - location: deployment-archive/scripts/start_server.sh
+    - location: scripts/start_server.sh
       timeout: 300
       runas: ubuntu
   ApplicationStop:
-    - location: deployment-archive/scripts/stop_server.sh
+    - location: scripts/stop_server.sh
       timeout: 300
       runas: ubuntu
