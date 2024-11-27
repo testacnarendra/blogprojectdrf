@@ -12,7 +12,7 @@ hooks:
   BeforeInstall:
     - location: scripts/clean_instance.sh
       timeout: 300
-      runas: root
+      runas: ubuntu
   AfterInstall:
     - location: scripts/instance_os_dependencies.sh
       timeout: 300
