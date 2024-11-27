@@ -1,4 +1,3 @@
 #!/user/bin/env bash
 
-sudo rm -rf /home/ubuntu/awsCodeDeployTest/*
-# echo "checked"
+sudo rm -rf /home/ubuntu/blogprojectdrf/*

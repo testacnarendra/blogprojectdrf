@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-%%ygb-p1*=lu2=@-$lh13uwg7jmwpr%lxt9*#^q5#)$5&0=s6$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['54.160.150.88']
+# ALLOWED_HOSTS = ['54.160.150.88'] #'pdncpython.elb.cisinlive.com'
+ALLOWED_HOSTS = ['pdncpython.elb.cisinlive.com', '192.168.2.212'] #'pdncpython.elb.cisinlive.com'
+
 
 
 # Application definition

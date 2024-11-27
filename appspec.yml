@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/awsCodeDeployTest
+    destination: /home/ubuntu/blogprojectdrf
 permissions:
-  - object: /home/ubuntu/awsCodeDeployTest
+  - object: /home/ubuntu/blogprojectdrf
     owner: ubuntu
     group: ubuntu
 
@@ -29,8 +29,8 @@ hooks:
   ApplicationStart:
     - location: scripts/start_server.sh
       timeout: 300
-      runas: root
+      runas: ubuntu
   ApplicationStop:
     - location: scripts/stop_server.sh
       timeout: 300
-      runas: root
+      runas: ubuntu

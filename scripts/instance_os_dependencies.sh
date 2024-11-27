@@ -11,9 +11,9 @@ sudo apt install -y nginx
 sudo apt-get install -y python3-pip python3-venv
 
 # Navigate to the project directory
-cd /home/ubuntu/
+# cd /home/ubuntu/
 
-# Create a virtual environment and install dependencies
-python3 -m venv env
-source env/bin/activate
-pip install -r requirements.txt
+# # Create a virtual environment and install dependencies
+# python3 -m venv env
+# source env/bin/activate
+# pip install -r requirements.txt

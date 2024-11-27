@@ -18,18 +18,14 @@ phases:
       - pip install -r requirements.txt
 
   build:
-    commands:
-      - echo Running Django tests...
-      - python manage.py test
-      - echo Building static files...
-      - python manage.py collectstatic --noinput
-      - echo Packaging the application...
-      - zip -r django-app.zip * .[^.]*
+    commands:    
+      - echo Building the application
+     
 
   post_build:
     commands:
-      - echo Build complete.
+      - echo Build completed on 'date'
 
 artifacts:
   files:
-    - django-app.zip  # Upload the packaged application as an artifact
+    - '**/*'

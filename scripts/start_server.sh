@@ -1,6 +1,6 @@
 #!/bin/bash
 # Navigate to the project directory
-cd /home/ubuntu/awsCodeDeployTest
+cd /home/ubuntu
 
 # Activate the virtual environment
 source env/bin/activate
