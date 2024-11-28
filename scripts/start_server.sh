@@ -9,6 +9,7 @@ source env/bin/activate
 sudo chown -R ubuntu:ubuntu /home/ubuntu/blogprojectdrf
 sudo chmod -R 755 /home/ubuntu/blogprojectdrf
 
+cd /home/ubuntu/blogprojectdrf
 # Run migrations and collect static files
 python manage.py migrate
 python manage.py collectstatic --noinput
