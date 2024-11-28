@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-%%ygb-p1*=lu2=@-$lh13uwg7jmwpr%lxt9*#^q5#)$5&0=s6$
 DEBUG = True
 
 # ALLOWED_HOSTS = ['54.160.150.88'] #'pdncpython.elb.cisinlive.com'
-ALLOWED_HOSTS = ['18.212.223.148'] #'pdncpython.elb.cisinlive.com'
+ALLOWED_HOSTS = ['54.152.238.109'] #'pdncpython.elb.cisinlive.com'
 
 
 
