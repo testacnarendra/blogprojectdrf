@@ -5,6 +5,10 @@ cd /home/ubuntu
 # Activate the virtual environment
 source env/bin/activate
 
+# Database File Permissions
+sudo chown -R ubuntu:ubuntu /home/ubuntu/blogprojectdrf
+sudo chmod -R 755 /home/ubuntu/blogprojectdrf
+
 # Run migrations and collect static files
 python manage.py migrate
 python manage.py collectstatic --noinput
