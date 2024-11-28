@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 
 # Script to safely stop Gunicorn processes
-
 echo "Stopping Gunicorn processes..."
 
 # Check if any Gunicorn processes are running
