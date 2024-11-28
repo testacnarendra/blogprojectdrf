@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Update the package list and install system dependencies
 sudo apt-get update
-sudo apt install -y python3-pip python3-venv nginx
+sudo apt install -y python3-pip python3-venv nginx gunicorn
 
 # Create a virtual environment and install dependencies
 cd /home/ubuntu/
