@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 # Script to safely stop Gunicorn processes
 
@@ -19,6 +19,3 @@ else
     echo "No Gunicorn processes found."
 fi
 
-# Log the operation for debugging purposes
-LOG_FILE="/var/log/server_stop.log"
-echo "$(date): Stopped Gunicorn processes." >> "$LOG_FILE"
