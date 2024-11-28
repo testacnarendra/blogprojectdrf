@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Navigate to the project directory
 cd /home/ubuntu
 
