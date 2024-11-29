@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-echo "updating th efile"
+echo "updating the file"
