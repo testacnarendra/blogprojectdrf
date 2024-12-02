@@ -3,6 +3,7 @@
 sudo apt-get update
 sudo apt install python3-venv python3-dev libpq-dev postgresql postgresql-contrib nginx curl
 sudo apt install python3-pip
+pip install --upgrade pip
 
 # Create a virtual environment and install dependencies
 cd /home/ubuntu/
