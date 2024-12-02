@@ -7,6 +7,7 @@ sudo chown ubuntu:ubuntu /run/gunicorn
 sudo chmod 755 /run/gunicorn
 
 sudo systemctl daemon-reload
+sudo systemctl start gunicorn.socket
 sudo systemctl start gunicorn.service
 sudo systemctl enable gunicorn.service
 

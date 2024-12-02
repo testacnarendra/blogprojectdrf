@@ -16,4 +16,4 @@ python manage.py collectstatic
 sudo ufw allow 8000
 
 # Start the Gunicorn server
-gunicorn --workers 3 --bind 0.0.0.0:8000 myproject.wsgi:application --daemon
+gunicorn --workers 3 --bind 0.0.0.0:8000 myproject.wsgi:application
