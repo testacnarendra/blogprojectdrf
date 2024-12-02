@@ -2,6 +2,6 @@
 
 # virtualenv /home/ubuntu/env
 source /home/ubuntu/env/bin/activate
-sudo apt install python3-pip
+sudo apt-get install python3-pip
 pip install --upgrade pip
 pip3 install -r /home/ubuntu/blogprojectdrf/requirements.txt
