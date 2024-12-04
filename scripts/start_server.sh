@@ -22,7 +22,5 @@ gunicorn --workers 3 --bind 0.0.0.0:8000 myproject.wsgi:application
 PORT=8000
 if lsof -i :$PORT | grep LISTEN; then
     echo "Port $PORT is already in use. Killing the process..."
-    fuser -k $PORT/tcp
-    echo "now starting gunicorn"
-    gunicorn --workers 3 --bind 0.0.0.0:8000 myproject.wsgi:application
+    fuser -k $PORT/tcp    
 fi
